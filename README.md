@@ -4,9 +4,9 @@ Class Materials:
 
     Textbook: "Learn Python3 The Hard Way" By: Zed A. Shaw
 
-    OS: MacOS, Linux
+    OS: Linux (Note: I'm using my own personal setup on MacOS)
 
-    Code Editor: VSCode, Atom, Sublime
+    Code Editor: Atom (Note: I'm using VSCode)
 
     Language: Python 3.6.2
 ```
@@ -19,10 +19,10 @@ Assignments:
     1. Excercise 0: The Setup (Page 24)
 
 Homework:
-    1. Reading:
-    2. Excercise 3
-    3. Create a Github Account
-    4. 
+    1. Reading: http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+    2. Reading: Page 248 - 281 
+    3. Excercise 3: Numbers and Math
+    4. Create a Github Account
 ```
 #### **Thursday 09-07-17**
 ```
