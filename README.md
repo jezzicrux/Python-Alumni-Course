@@ -15,12 +15,16 @@ Class Materials:
 #### **Thursday 08-31-17**
 
 ```
+Lecture Slide Decks:
+    1. 01_Lecture 1 Slides.pdf
+
 Assignments:
     1. Excercise 0: The Setup (Page 24)
 
-Homework:
+Homework: 
+01_HW 1.pdf
     1. Reading: http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
-    2. Reading: Page 248 - 281 
+    2. Reading: Page 248 - 281 "Shut up and Shell"
     3. Excercise 3: Numbers and Math
     4. Create a Github Account
 ```
