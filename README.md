@@ -24,7 +24,7 @@ Assignments:
 Homework: 
 01_HW 1.pdf
     1. Reading: http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
-    2. Reading: Page 248 - 281 "Shut up and Shell"
+    2. Reading: Page 248 - 281 Command Line Crash Course: "Shut up and Shell"
     3. Excercise 3: Numbers and Math
     4. Create a Github Account
 ```
