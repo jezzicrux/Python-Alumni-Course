@@ -19,7 +19,7 @@ Lecture Slide Decks:
     1. 01_Lecture 1 Slides.pdf
 
 Assignments:
-    1. Excercise 0: The Setup (Page 24)
+    1. Excercise 0: The Setup (Page 02)
 
 Homework: 
 01_HW 1.pdf
@@ -30,7 +30,11 @@ Homework:
 ```
 #### **Thursday 09-07-17**
 ```
-Testing
+Lecture Slide Decks:
+    1. 02_Lecture 2 Slides.pdf
+
+Assignments:
+    1. Excercise 01: A Good First Program (Page 8)
 ```
 #### **Saturday 09-09-17**
 ```
