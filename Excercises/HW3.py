@@ -1,7 +1,9 @@
-#A mimi "magic game" The program greets the user and ask if they believe in magic.
-#If they don't the game states the users favoirte color. If they believe, it goes to the guessing game.
-#Then the user enters a number. The program guesses wrong and then guesses the right number.
-#The program ask if they right and if the say they aren't, the program calls them a lier
+"""A mimi "magic game" The program greets the user and ask if they believe in
+magic. If they don't the game states the users favoirte color. If they believe,
+it goes to the guessing game. Then the user enters a number. The program guesses
+wrong and then guesses the right number. The program ask if they right and if
+the say they aren't, the program calls them a lier. It finally give a
+horoscope reading."""
 from sys import argv
 import time
 script, name, fav_color = argv
