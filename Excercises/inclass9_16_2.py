@@ -10,7 +10,7 @@ def main():
 def pos_neg():
     #You have to add int before input because input are always strings and you need a interger
     num = int(input("Please enter a number. >"))
-    if num < 0: #less then 0
+    if (num < 0): #less then 0
         print ("Your number is negative")
     else: # everything eles
         print ("Your number is positive")
@@ -22,7 +22,7 @@ def divied_four():
     #Here we use modulas to see if the number is divisible by 4 because if it is,
     #there shouldb't be a remainder and modulas looks at the remainder value.
     #If the remainder is zero then it' divisible by 4.
-    if dnum%4 == 0:
+    if (dnum%4 == 0):
         print("You number is divisible by 4.")
     else:
         print("Sorry. Not divisible by 4.")
@@ -30,9 +30,9 @@ def divied_four():
 #Letting the user know where their number falls in the range 6 -12 or 121 - 151
 def numb_rang():
     rangnum = int(input("Please enter a number to see fall in the magic zone. >"))
-    if rangnum >=6 and rangnum <=12: #This sees if the number to greater the 6 but less then 12
+    if (rangnum >=6 and rangnum <=12): #This sees if the number to greater the 6 but less then 12
         print("You're in the magic zone!")
-    elif rangnum >=121 and rangnum <=151: #This sees if the number to greater the 121 but less then 151
+    elif (rangnum >=121 and rangnum <=151): #This sees if the number to greater the 121 but less then 151
         print("You're in the super magic zone!")
     else: #For all other numbers
         print("No magic for you. Sorry")
