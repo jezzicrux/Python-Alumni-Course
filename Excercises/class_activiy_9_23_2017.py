@@ -1,7 +1,6 @@
 import math #using the math libary
 import datetime #using date libary
 import time #using time libary
-import calendar #want to format the date nicer
 
 def main():
     time_convertion()
