@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <title>Python page</title>
+  </head>
+  <body>
+    <a href="index.html">HOME</a><br>
+    <a href="page2.html">Page 2</a>
+    {% if today == 'saturday' %}
+    <h1>WELCOME TO THE PYTHON PAGE {{user1}}!!!</h1>
+    {% elif today == 'thrusday' %}
+    <h1>WELCOME TO THE PYTHON PAGE {{user2}}!!!</h1>
+    {% endif %}
+    <p>I like Sailormoon</p>
+    <p><img src="/static/usagi.jpg"></p>
+    <h4>Isn't she cute?</h4>
+    <p>This is link to my github: <a href="https://github.com/jezzicrux">CLICK HERE!!!</a></p>
+    <form>
+      Enter your name for no reason. YET!!: <input type="text" placeholder="Name"><br><br>
+      <button>SUBMIT!!!</button>
+    </form>
+  </body>
+</html>
