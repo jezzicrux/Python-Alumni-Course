@@ -1,0 +1,61 @@
+body{
+  background: #000000 url(../static/stars.png) repeat top left;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+}
+
+#container{
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+#message{
+  margin-top: 25%;
+  animation-name: tada;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+h1{
+  font-family: 'Boogaloo', cursive;
+  font-size: 90px;
+  text-align: center;
+  color:#FF160B;
+  animation-name: colorful_words;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes colorful_words {
+    0%   {color:#FF160B;}
+    25%  {color:#FFDA27;}
+    50%  {color:#28FFD6;}
+    75%  {color:#9B2DFF;}
+    100% {color:#FF160B;}
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

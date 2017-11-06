@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Boogaloo" rel="stylesheet">
+    <!--
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    -->
+    <link rel=stylesheet type=text/css href="../static/style.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id ="container">
+      <header>
+      <h1>WELCOME TO THE PORTFOLIO PAGE!!!</h1>
+      </header>
+      <nav>
+        <a class="link" href="/">HOME</a>
+        <a class="link" href="/hobbies">HOBBIES</a>
+        <a class="link" href="/surprise">SURPRISE</a>
+      </nav>
+			<div id="funtime">
+      <h3 id="formtitle">Fill out the form for something fun:</h3>
+				<form method="POST" action="/youwin">
+					<label class="lab" for="message">Please enter 5 favortie anime:</label>
+					<textarea id="message" name='the_message' placeholder="Anime titles" rows="4" cols="30"></textarea> <br>
+          <label class="lab" for="message">Please enter 5 favortie videogames:</label>
+					<textarea id="message" name='the_message' placeholder="Game titles" rows="4" cols="30"></textarea> <br>
+          <label class="lab" for="message">Please enter 5 favortie mangas:</label>
+					<textarea id="message" name='the_message' placeholder="Manga titles" rows="4" cols="30"></textarea> <br>
+        <button>CLICK FOR FUN!!!</button>
+      </form>
+    </div>
+  </body>
+</html>

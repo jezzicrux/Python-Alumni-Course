@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Boogaloo" rel="stylesheet">
+    <!--
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    -->
+    <link rel=stylesheet type=text/css href="../static/style.css">
+    <title>Portfolio</title>
+    <script type="text/javascript">
+    var count = 0;
+    function likecount() {
+      count = count + 1;
+      document.getElementById("like_total").innerHTML = count;
+    }
+    </script>
+  </head>
+  <body>
+    <div id ="container">
+      <header>
+      <h1>WELCOME TO THE PORTFOLIO PAGE!!!</h1>
+      </header>
+      <nav>
+        <a class="link" href="/">HOME</a>
+        <a class="link" href="/hobbies">HOBBIES</a>
+        <a class="link" href="/surprise">SURPRISE</a>
+      </nav>
+      <div id = "bio">
+        <div id = "biopic">
+          <img src="../static/bio_pic.jpg">
+        </div>
+        <div id="biotext">
+          <h3>BIO:</h3>
+          <p>Why do you even want to know who I am? I'm just a regular magaical school girl
+          <br>Fine Fine. I'll be cereal. I'm Jess and there's nothing specail about me.
+          <br>I like anime, video games, and manga....
+          <br>That's it.
+          <br>Now go away or I shall taunt you a second time!</p>
+        </div>
+      </div>
+      <p>This is link to my github: <a href="https://github.com/jezzicrux">CLICK HERE!!!</a></p>
+      <p>Please click the like button if you like this page</p>
+      <div id="ilike">
+        <button onclick="javascript:likecount()">LIKE!!!</button>
+        <p id="like_total"></p>
+      </div>
+    </div>
+  </body>
+</html>

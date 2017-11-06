@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Boogaloo" rel="stylesheet">
+    <!--
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    -->
+    <link rel=stylesheet type=text/css href="../static/style.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id ="container">
+      <header>
+      <h1>WELCOME TO THE PORTFOLIO PAGE!!!</h1>
+      </header>
+      <nav>
+        <a class="link" href="/">HOME</a>
+        <a class="link" href="/hobbies">HOBBIES</a>
+        <a class="link" href="/surprise">SURPRISE</a>
+      </nav>
+			<div id="hobs">
+      <h3 id="hobtitle">HOBBIES:</h3>
+        <div id="hobsort">
+					<div class="hoblist">
+						<img id="anime" src="../static/anime.gif">
+						<ul>
+							<li>Evangelion</li>
+							<li>Gundam</li>
+							<li>Cowboy Bebop</li>
+							<li>Outlaw Star</li>
+							<li>Wolf&#39;s Rain</li>
+							<li>One Punch Man</li>
+							<li>Jo Jo&#39;s Bizarre Adventure</li>
+						<ul>
+        	</div>
+					<div class="hoblist">
+						<img id="game" src="../static/game.png">
+						<ul>
+							<li>Persona 5</li>
+							<li>Half Life 2</li>
+							<li>Bioshock</li>
+							<li>Hotline Miami</li>
+							<li>Breath of Fire 3</li>
+							<li>Donkey Kong Conutry</li>
+							<li>Guilty Gear X</li>
+						<ul>
+        	</div>
+					<div class="hoblist">
+						<img id="manga" src="../static/manga.jpg">
+						<ul>
+							<li>Ajin</li>
+							<li>Anitomo</li>
+							<li>Nijiro Days</li>
+							<li>Horimiya</li>
+							<li>ReLife</li>
+							<li>Mahoutsuki no Yome</li>
+							<li>Wonderland</li>
+						<ul>
+        	</div>
+          </div>
+        </div>
+				<form method="POST" action="/hobbies">
+					Please Enter your name: <input type="text" name="name" placeholder="Your Name"> <br> <br>
+					<label class="lab" for="message">Please leave a nice comment: </label>
+					<textarea id="message" name='the_message' placeholder="Your message " rows="4" cols="30"></textarea> <br>
+        <button>SUBMIT!!!</button>
+      </form>
+      <h3 id="notes">NOTES:</h3>
+			<table>
+        <tr>
+        {% for i in messages%}
+				<tr>
+					<td> {{i.name}} said: {{i.message}} </td>
+				</tr>
+        {% endfor %}
+			</table>
+    </div>
+  </body>
+</html>
