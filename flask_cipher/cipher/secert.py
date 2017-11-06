@@ -17,8 +17,8 @@ def secertcode():
 			letters = list('abcdefghijklmnopqrstuvwxyz')
 			new_message=code
 			for q in range (0,len(code)):
-				i = letters.index(code[q])
 				if new_message[q] in letters:
+					i = letters.index(code[q])
 					if code[q] == letters[i]:
 						new_index=i+key
 						new_message[q] = letters[new_index]
