@@ -6,6 +6,14 @@ from flask import render_template, request
 def index():
 	return render_template('/index.html')
 
+@app.route('/decrypt')
+def decrypt():
+	return render_template('/decrpyt.html')
+
+@app.route('/uncrypt')
+def uncrypt():
+	return render_template('/uncrypt.html')
+
 @app.route('/cipher', methods = ['GET', 'POST'])
 def secertcode():
 	if request.method == 'POST':
@@ -31,7 +39,7 @@ def secertcode():
 			return render_template('/cipher.html', decrypt = cipher)
 		else:
 			warning = "WRONG KEY"
-			return render_template('/index.html')
+			return render_template('/index.html', key = warning)
 	else:
 		print('get method')
 		return render_template('/index.html')
